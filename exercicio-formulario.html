@@ -1,0 +1,88 @@
+<html lang"pt-br">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style-formulario.css">
+  </head>
+
+
+  <body>
+
+    <form action="#" method="GET">  
+
+      <div>
+        <label class="metade" for="texto">
+          <p>Texto</p>
+          <p>Text input</p>
+        </label>
+        <input type="text" name="texto">
+      </div>
+
+      
+      <div>
+        <label  class="metade" for="senha">
+          <p>Senha</p>
+          <p>password</p>
+        </label>
+        <input type="password" name="senha">
+      </div>
+  
+      <div>
+
+        <div>
+          <p>Escolha uma ou múltiplas opções:</p>
+          <p>Checkboxes</p>
+        </div>
+
+        <div>
+          <input type="Checkbox" name="caracteristica" value="mulher"><label for="caracteristica">Mulher</label><br>
+          <input type="Checkbox" name="caracteristica" value="poderosa"><label for="caracteristica">Poderosa</label><br>
+          <input type="Checkbox" name="caracteristica" value="linda"><label for="caracteristica">Linda</label><br>
+          <input type="Checkbox" name="caracteristica" value="maravilhosa"><label for="caracteristica">Maravilhosa</label><br>
+        </div>
+      </div>
+
+      <div>
+        <p>Escolha uma opção:</p>
+        <input type="radio" name="habilidade" value="super-forca"><label for="habilidade">Super força</label><br>
+        <input type="radio" name="habilidade" value="ser-invisivel"><label for="habilidade">Ser invisível</label><br>
+        <input type="radio" name="habilidade" value="ler-mentes"><label for="habilidade">Ler mentes</label><br>
+        <input type="radio" name="habilidade" value="super-velocidade"><label for="habilidade">Super velocidade</label>
+      </div>
+
+
+      <div>
+          <label  class="metade" for"assunto">Selecione Dropdown</label>
+          <select name="assunto">
+            <option value="assunto" >Assunto</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="critica">Critica</option>
+            <option value="elogio">Elogio</option>
+          </select>
+        </div>
+
+
+      <div>
+        <label for="valor">Selecione o Valor</label>
+        <input type="number" name="quantidade" min="0" max="10">
+      </div>
+
+
+      <div>
+        <label for="comentarios">Comentários</label>
+        <textarea maxlength="100" name="comentarios" rows="7"></textarea>
+      </div>
+
+      <div class="metade"></div>
+      <div class="metade">
+        
+        <input type="submit" value="Enviar">
+      </div>
+
+   </body>
+
+  </form>
+</html>
